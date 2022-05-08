@@ -663,7 +663,8 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  padding: 37px 36px 43px 44px;
+  padding: 40px;
+  box-sizing: border-box;
   transition: transform var(--time-cubic);
 }
 
@@ -718,6 +719,7 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
+  display: block;
 
   color: #757575;
 }
@@ -752,7 +754,7 @@ img {
 
 .modal-textarea {
   width: 100%;
-  min-height: 120px;
+  height: 120px;
   padding: 12px 16px;
   margin-top: 4px;
   margin-bottom: 20px;
@@ -761,6 +763,7 @@ img {
   box-sizing: border-box;
   resize: none;
   outline: none;
+  display: block;
   transition: border-color var(--time-cubic);
 }
 
@@ -828,7 +831,7 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
+  /* display: flex; */
   letter-spacing: 0.06em;
   align-items: center;
   text-align: center;
